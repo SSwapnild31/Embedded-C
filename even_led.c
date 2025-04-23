@@ -6,7 +6,7 @@ main()
  int i,j=0;
  IODIR0=0XFF;
  IOSET0=0XFF;
- //delay_ms(250);
+ 
  while(1)
  {
   for(i=j;i<=7;i=i+2)
