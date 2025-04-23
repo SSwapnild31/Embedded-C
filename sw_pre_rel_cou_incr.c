@@ -1,7 +1,9 @@
 #include<lpc21xx.h>
 #include "header.h"
+
 #define SW ((IOPIN0>>14)&1)
 int c=0;
+
 main()
 {
  int i;
