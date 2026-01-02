@@ -4,12 +4,11 @@
 main()
 {
  IODIR0=1;
- 
- while(1)
- {
+ while(1){
   if(SW==0)
   		IOCLR0=1;
   else
   		IOSET0=1;
  }
 }
+
